@@ -1,3 +1,14 @@
+# Overview of my usage
+
+In order to change the state of different colored LEDs via database information recieved, I had altered code from (https://www.youtube.com/watch?v=hFBFju_ZSYs), in order to fit my purposes. The repo uses node packages, etc to work.
+
+The LEDs would be connected to a breadboard, then an Arduino, the Arduino connected to a laptop via serial port. App.js draws the data from the database and sends signals to the respective pins the LEDs are connected to, in order to turn them on/off.
+
+This repo is associated with: (https://github.com/BagelsAreNotDonuts/BillSplitProject)
+
+
+Below is the original readme from (https://github.com/codeadamca/arduino-from-nodejs)
+
 # Communicating Between a Node.js Server and an Arduino
 
 This tutorial will walkthrough the process of creating a web interface to control an Arduino. The web interface will include an on and off button that will turn a light on and off on a USB connected Arduino. 
